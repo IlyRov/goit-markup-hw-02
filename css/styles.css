@@ -1,4 +1,6 @@
-:root {}
+:root {
+    --brand-color: #3f51b5;
+}
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
@@ -99,4 +101,33 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+}
+.team-member-list {
+    background-color: #FFFFFF;
+}
+.name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.job-title {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.bottom {
+    background-color: #2e2f42;
+}
+.white-logo-part {
+    color: #f4f4fd;
+}
+.bottom-p {
+    font-family: "Roboto", sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        text-align: left;
 }
